@@ -13,7 +13,7 @@ def star(n):
         a.append(i+' '*(n//3)+i)
     for i in stars:
         a.append(i*3)
-    # print('a ->',a)
+    print('a ->',a)
     return a
 
 N = int(input())
